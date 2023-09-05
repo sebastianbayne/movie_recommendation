@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib #to load the recommendation model
+# import joblib #to load the recommendation model
 
 #model = joblib.load('your_model.pkl')
 
