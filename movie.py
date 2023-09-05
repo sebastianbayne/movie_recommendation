@@ -10,8 +10,5 @@ import pandas as pd
 st.title('Welcome to SMG Movies')
 st.text('here we recommend movies based on user rating and popularity')
 
-option = st.selectbox(
-    'Please choose a movie')
-
 # Add a footer to your app
 st.text("Built with Streamlit")
