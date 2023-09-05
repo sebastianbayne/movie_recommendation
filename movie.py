@@ -1,18 +1,14 @@
 import streamlit as st
+import pandas as pd
+import joblib #to load the recommendation model
 
-# Set the title and description of your app
-st.title("Simple Square Calculator")
-st.write("Enter a number below and click the button to calculate its square.")
+#model = joblib.load('your_model.pkl')
 
-# Create an input field for the user to enter a number
-user_input = st.number_input("Enter a number")
+# title of the recommender app
+# building the app with Sebastain & Mirella
 
-# Create a button to trigger the calculation
-if st.button("Calculate Square"):
-    # Calculate the square of the user's input
-    result = user_input ** 2
-    # Display the result
-    st.write(f"The square of {user_input} is {result}")
+st.title('Welcome to SMG Movies')
+st.text('here we recommend movies based on user rating and popularity')
 
 # Add a footer to your app
 st.text("Built with Streamlit")
